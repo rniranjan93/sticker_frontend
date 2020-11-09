@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+}
+
+.ui.fluid.input > input {
+  height: 3.5rem;
+  font-size: 1.3rem;
+}
+
+.ui.fluid.card {
+  padding: 0.7rem;
+}
+
+.box {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 5),
+    0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 0.5rem;
+  border: solid thin rgb(245, 245, 245);
+  /* border-radius: 0.5rem; */
+  padding: 0.6rem;
+}
+
+.box > img {
+  height: 4.7rem;
+  width: 4.7rem;
+  margin-right: 1rem;
+}
+
+.header {
+  font-size: medium;
+}
+.meta {
+  margin-top: 0.3rem;
+  font-size: smaller;
+  color: gray;
+}
+.bottom {
+  padding-bottom: 3rem;
+}
