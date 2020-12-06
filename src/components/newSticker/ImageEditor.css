@@ -1,0 +1,22 @@
+.img-container {
+  float: left;
+  height: 400px;
+  width: 400px;
+}
+
+.img-preview {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+  /* display: none; */
+}
+
+.img-main-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.trans {
+  /* transform: scale(0.5, 0.5); */
+}

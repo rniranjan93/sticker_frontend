@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import Single from "./components/Single";
-import Keyboard from "./components/Keyboard";
-import Pack from "./components/Pack";
+import Main from "./components/home/Main";
+import Footer from "./components/footer/Footer";
+import Single from "./components/newSticker/Single";
+import Keyboard from "./components/keyboard/Keyboard";
 
 const App = () => {
   console.log("started");
@@ -22,10 +21,6 @@ const App = () => {
         </Route>
         <Route path="/keyboard" exact>
           <Keyboard />
-          <Footer />
-        </Route>
-        <Route path="/showPack" exact>
-          <Pack />
           <Footer />
         </Route>
       </Switch>
